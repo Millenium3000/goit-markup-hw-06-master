@@ -1,0 +1,16 @@
+.icon {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-image: url(sprite.svg);
+}
+.icon-envelope {
+  width: 43px;
+  height: 32px;
+  background-position: 0 0;
+}
+.icon-Vector {
+  width: 20px;
+  height: 32px;
+  background-position: -96px 0;
+}
+
