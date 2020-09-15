@@ -1018,3 +1018,22 @@ opacity: 0;
 .footer-icon-set {
   background-color: rgba(255, 255, 255, 0.1);
 }
+
+/* оформляю модалку */
+
+.inputname {
+  position: absolute;
+  width: 448px;
+  height: 40px;
+  left: 576px;
+  top: 314px;
+
+  border: 1px solid #2196f3;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+
+/* запрет на изменение формы поля ввода текста */
+.textarea {
+  resize: none;
+}
