@@ -551,39 +551,44 @@
         <button data-modal-close class="close-button">
           <img src="./images/Vector.svg" alt="Закрыть" />
         </button>
+
         <!-- вставляю форму модалки -->
 
-        <form class="js-speaker-form">
-          <h3>Оставьте свои данные, мы Вам перезвоним</h3>
-          <!-- Оформил ввод имени (вставляю класс inputname)-->
-          <label class="inputname" for="name">Имя</label>
-          <input type="text" name="name" id="name" placeholder="Имя" />
-          <!-- Оформляю ввод телефона -->
-          <label for="tel">Телефон</label>
-          <input type="text" name="tel" id="tel" placeholder="Тел" />
-          <!-- Вставляю почту -->
-          <label for="email">Почта</label>
-          <input type="text" name="email" id="email" placeholder="email" />
+        <fieldset>
+          <legend>
+            <form class="js-speaker-form">
+              <h3>Оставьте свои данные, мы Вам перезвоним</h3>
+              <!-- Оформил ввод имени (вставляю класс inputname)-->
+              <label class="inputname" for="name">Имя</label>
+              <input type="text" name="name" id="name" placeholder="Имя" />
+              <!-- Оформляю ввод телефона -->
+              <label for="tel">Телефон</label>
+              <input type="text" name="tel" id="tel" placeholder="Тел" />
+              <!-- Вставляю почту -->
+              <label for="email">Почта</label>
+              <input type="text" name="email" id="email" placeholder="email" />
 
-          <!-- поле ввода текста -->
+              <!-- поле ввода текста -->
 
-          <label for="textarea">Комментарий</label>
+              <label for="textarea">Комментарий</label>
 
-          <textarea
-            name="textarea"
-            id="textarea"
-            cols="30"
-            rows="10"
-          ></textarea>
+              <textarea
+                name="textarea"
+                id="textarea"
+                cols="30"
+                rows="10"
+              ></textarea>
 
-          <!-- Чекбокс -->
-          <input type="checkbox" name="policy" id="policy" />
-          <label for="policy">
-            Соглашаюсь с рассылкой и принимаю Условия договора</label
-          >
-          <!-- Кнопка заявки -->
-          <button type="submit">Отправить</button>
-        </form>
+              <!-- Чекбокс -->
+              <input type="checkbox" name="policy" id="policy" />
+              <label for="policy">
+                Соглашаюсь с рассылкой и принимаю Условия договора</label
+              >
+              <!-- Кнопка заявки -->
+              <button type="submit">Отправить</button>
+            </form>
+          </legend>
+        </fieldset>
       </div>
     </div>
     <script src="./js/modal.js"></script>
