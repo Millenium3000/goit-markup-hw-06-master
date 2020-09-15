@@ -1023,11 +1023,10 @@ opacity: 0;
 
 .inputname {
   display: block;
-  position: absolute;
-  width: 448px;
-  height: 40px;
-  left: 576px;
-  top: 314px;
+  width: 12px;
+  height: 12px;
+  background: url(../modalicons/Icon_man.svg) no-repeat 3px 1px;
+  background-size: auto 20%;
 
   border: 1px solid #2196f3;
   box-sizing: border-box;

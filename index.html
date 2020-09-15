@@ -559,25 +559,42 @@
             <form class="js-speaker-form">
               <h3>Оставьте свои данные, мы Вам перезвоним</h3>
               <!-- Оформил ввод имени (вставляю класс inputname)-->
-              <label class="inputname" for="name">Имя</label>
-              <input type="text" name="name" id="name" placeholder="Имя" />
+              <div class="inputname">
+                <img src="./modalicons/Icon_man.svg" 
+
+                <label for="name">Имя</label>
+                <input type="text" name="name" id="name" placeholder="Имя" />
+              </div>
+
               <!-- Оформляю ввод телефона -->
-              <label for="tel">Телефон</label>
-              <input type="text" name="tel" id="tel" placeholder="Тел" />
+
+              <div>
+                <label for="tel">Телефон</label>
+                <input type="text" name="tel" id="tel" placeholder="Тел" />
+              </div>
               <!-- Вставляю почту -->
-              <label for="email">Почта</label>
-              <input type="text" name="email" id="email" placeholder="email" />
+
+              <div>
+                <label for="email">Почта</label>
+                <input
+                  type="text"
+                  name="email"
+                  id="email"
+                  placeholder="email"
+                />
+              </div>
 
               <!-- поле ввода текста -->
+              <div>
+                <label for="textarea">Комментарий</label>
 
-              <label for="textarea">Комментарий</label>
-
-              <textarea
-                name="textarea"
-                id="textarea"
-                cols="30"
-                rows="10"
-              ></textarea>
+                <textarea
+                  name="textarea"
+                  id="textarea"
+                  cols="30"
+                  rows="10"
+                ></textarea>
+              </div>
 
               <!-- Чекбокс -->
               <input type="checkbox" name="policy" id="policy" />

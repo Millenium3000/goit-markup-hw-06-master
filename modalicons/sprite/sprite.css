@@ -1,0 +1,21 @@
+.icon {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-image: url(sprite.svg);
+}
+.icon-Icon_man {
+  width: 32px;
+  height: 32px;
+  background-position: 0 0;
+}
+.icon-modal_email {
+  width: 43px;
+  height: 32px;
+  background-position: -48px 0;
+}
+.icon-Modal_phone {
+  width: 32px;
+  height: 32px;
+  background-position: -144px 0;
+}
+
