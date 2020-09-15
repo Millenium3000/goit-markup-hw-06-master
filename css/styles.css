@@ -388,6 +388,7 @@ img {
   margin-right: auto;
 }
 
+/* заголовок героя */
 .header-hero,
 .wrap-hero .button {
   letter-spacing: 0.06em;
@@ -498,6 +499,7 @@ img {
   pointer-events: none;
 }
 
+/* закрытие кнопки */
 .close-button {
   position: absolute;
   width: 30px;
@@ -515,6 +517,7 @@ img {
   margin-bottom: 0px;
 }
 
+/* почему мы */
 .subtitle-why-we {
   margin-top: 0;
   margin-bottom: 10px;
@@ -549,6 +552,7 @@ img {
   color: var(--header-text-color);
 }
 
+/* команда */
 .our-team {
   display: flex;
   justify-content: center;
@@ -606,6 +610,7 @@ img {
   margin-bottom: 50px;
 }
 
+/* оформление кнопки */
 .btn {
   padding: 6px 22px;
   border: none;
@@ -670,7 +675,7 @@ img {
   border: 1px solid var(--accent-blue-color);
   transform: translate(-250ms) cubic-bezier (0.4, 0, 0.2, 1);
 }
-
+/* иконки клиентов */
 .clients-icon {
   width: 79px;
   height: 42px;
@@ -963,6 +968,8 @@ opacity: 0;
 
   font-style: normal;
 }
+
+/* белое лого */
 .logowhait {
   color: var(--accent-white-color);
 }
@@ -975,12 +982,13 @@ opacity: 0;
   display: block;
   margin-bottom: 9px;
 }
-
+/* Блок икинок в подвале */
 .footer-icon {
   display: block;
   margin-left: 100;
 }
 
+/* иконки соц сетей в подвале */
 .footer-icon-set {
   background-color: rgba(255, 255, 255, 0.1);
 }
@@ -1007,6 +1015,7 @@ opacity: 0;
   margin-bottom: 20px;
 }
 
+/* голубое лого */
 .logoblue {
   color: var(--accent-blue-color);
 }
@@ -1038,19 +1047,32 @@ opacity: 0;
   resize: none;
 }
 
-/* Этот класс- кнопка "ПАодпишитесь в футере" */
-.subscribe {
-  position: absolute;
-  width: 219px;
-  height: 16px;
-  left: 815px;
-  top: 1700px;
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
+/* кнопка - подпишись на рассылку */
+.footer-flex-form {
+  display: flex;
+  flex-direction: row;
+}
+
+.action-mail {
+  padding-left: 16px;
+  margin-right: 12px;
+  width: 358px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  border-radius: 4px;
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
+  background-color: white;
+  color: var(--accent-rgba-color);
+}
+
+.action-mail::placeholder {
+  color: 2f303a;
+}
+
+.call-to-action {
+  display: block;
+  margin-bottom: 20px;
+  color: var(--accent-white-color);
   font-size: 14px;
-  line-height: 16px;
-  letter-spacing: 0.03em;
+  line-height: 1.14;
   text-transform: uppercase;
-  color: black;
 }
