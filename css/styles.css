@@ -1077,3 +1077,9 @@ opacity: 0;
   text-transform: uppercase;
 }
 /* Позиционирую форму подписки */
+.form-name {
+  display: block;
+}
+.nameinput {
+  display: block;
+}
