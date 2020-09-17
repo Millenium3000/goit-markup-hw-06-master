@@ -486,11 +486,11 @@
         <!-- Вставляю форму - ПОДПИШИТЕСЬ НА РАССЫЛКУ -->
          <!-- Подпишитесь на рассылку-->
         <form class="form-field js-speaker-form">
-          <label for="action-mail">
+          <label class="label-mail" for="action-mail">
             <b class="call-to-action">Подпишитесь на рассылку</b>
           </label>
           <div class="footer-flex-form">
-            <input
+            <input 
               class="action-mail"
               type="mail"
               id="action-mail"
@@ -498,6 +498,7 @@
               placeholder="E-mail"
             />
 
+            <!-- конец формы - ПОДПИШИТЕСЬ -->
         <div class="footer-icon">
           <h3 class="title title-icon">присоединяйтесь</h3>
           <ul class="icon-svg">
@@ -574,8 +575,8 @@
         </button>
 
         <!-- вставляю форму модалки -->
-
-        <fieldset>
+<form>
+   <fieldset>
           <legend>
             <form class="js-speaker-form">
               <h3>Оставьте свои данные, мы Вам перезвоним</h3>
@@ -625,6 +626,8 @@
             </form>
           </legend>
         </fieldset>
+</form>
+       
       </div>
     </div>
     <script src="./js/modal.js"></script>

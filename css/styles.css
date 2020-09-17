@@ -1068,7 +1068,7 @@ opacity: 0;
   color: 2f303a;
 }
 
-.call-to-action {
+.form-field {
   display: block;
   margin-bottom: 20px;
   color: var(--accent-white-color);
@@ -1076,3 +1076,4 @@ opacity: 0;
   line-height: 1.14;
   text-transform: uppercase;
 }
+/* Позиционирую форму подписки */
