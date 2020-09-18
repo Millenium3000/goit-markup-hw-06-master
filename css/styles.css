@@ -1079,13 +1079,25 @@ opacity: 0;
 
   width: 18px;
   height: 18px;
-  fill: var(--primary-text-color);
+  fill: var(--header-text-color);
 }
 /* кнопка - подпишись на рассылку */
 .footer-flex-form {
   display: flex;
 }
+/* кнопка в модалке */
+.form-button {
+  position: absolute;
+  width: 200px;
+  height: 50px;
+  left: 165px;
 
+  border: 0;
+  background: #188ce8;
+  color: var(--accent-white-color);
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 4px;
+}
 .action-mail {
   padding-left: 16px;
   margin-right: 12px;
