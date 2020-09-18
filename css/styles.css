@@ -981,6 +981,8 @@ opacity: 0;
 .info {
   display: block;
   margin-bottom: 9px;
+  font-size: 14px;
+  line-height: 1.72;
 }
 /* Блок икинок в подвале */
 .footer-icon {
@@ -1051,7 +1053,6 @@ opacity: 0;
 /* кнопка - подпишись на рассылку */
 .footer-flex-form {
   display: flex;
-  flex-direction: row;
 }
 
 .action-mail {
@@ -1066,10 +1067,10 @@ opacity: 0;
 }
 
 .action-mail::placeholder {
-  color: 2f303a;
+  color: rgba(255, 255, 255, 0.6);
 }
 
-.form-field {
+.label-mail {
   display: block;
   margin-bottom: 20px;
   color: var(--accent-white-color);
@@ -1103,7 +1104,6 @@ opacity: 0;
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   background: #2f303a;
-  margin-top: 20px;
 }
 
 .subscribe-btn {
