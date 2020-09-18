@@ -1141,14 +1141,14 @@ opacity: 0;
   outline: none;
 }
 /* Трем иконкам в модалке даю ховер */
-.nameinput :hover {
+.nameinput input {
   border-color: #2196f3;
 }
 
 /* .inputname label :hover {
   margin-bottom: 4px;
 } */
-.inputname input ::placeholder {
+.inputname ::placeholder {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.01em;
