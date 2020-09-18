@@ -455,10 +455,12 @@ img {
 
 .modal {
   position: absolute;
-  width: 528px;
-  height: 581px;
-  left: 536px;
-  top: 221px;
+  min-width: 528px;
+  min-height: 581px;
+  transform: translate(-50%, -50%) scale(1);
+  left: 50%;
+  top: 50%;
+  padding: 40px;
   background: #ffffff;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -1032,24 +1034,53 @@ opacity: 0;
 }
 
 /* оформляю модалку */
-
-/* .inputname {
+.form-checkbox a {
+  margin-left: 3px;
+  text-decoration-line: underline;
+  color: var(--accent-blue-color);
+}
+.form-modal-text {
   display: block;
-  width: 12px;
-  height: 12px;
-  background: url(../modalicons/Icon_man.svg) no-repeat 3px 1px;
-  background-size: auto 20%;
-
-  border: 1px solid #2196f3;
-  box-sizing: border-box;
-  border-radius: 4px;
-} */
+  text-align: center;
+  margin-bottom: 12px;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 1.15;
+  color: var(--header-text-color);
+}
+.inputname {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
 
 /* запрет на изменение формы поля ввода текста */
 .textarea {
+  margin-bottom: 25px;
+  padding-left: 16px;
+  padding-top: 12px;
+
+  height: 120px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
   resize: none;
+  outline: none;
+  transition: border-color var(--transition);
 }
 
+.icon-name-form {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  display: inline-block;
+  left: 13.5px;
+
+  width: 18px;
+  height: 18px;
+  fill: var(--primary-text-color);
+}
 /* кнопка - подпишись на рассылку */
 .footer-flex-form {
   display: flex;
@@ -1079,13 +1110,37 @@ opacity: 0;
   text-transform: uppercase;
 }
 /* Позиционирую форму подписки */
+.form {
+  outline: 1px;
+}
 .form-name {
-  display: block;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.01em;
+  color: var(--primary-text-color);
 }
 .nameinput {
-  display: block;
+  height: 40px;
+  margin-bottom: 10px;
+  padding-left: 43px;
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  border-radius: 4px;
+  transition: border-color var(--transition);
+  outline: none;
+}
+.nameinput:focus {
+  border-color: #2196f3;
 }
 
+.inputname label {
+  margin-bottom: 4px;
+}
+.inputname input ::placeholder {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.01em;
+  color: rgba(117, 117, 117, 0.5);
+}
 .call-to-action {
   font-family: Roboto;
   font-style: normal;
