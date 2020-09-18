@@ -1137,14 +1137,14 @@ opacity: 0;
   padding-left: 43px;
   border: 1px solid rgba(33, 33, 33, 0.2);
   border-radius: 4px;
-  transition: border-color var(--transition);
+  transition: border-color #2196f3;
   outline: none;
 }
-.nameinput:focus {
+.nameinput :hover {
   border-color: #2196f3;
 }
 
-.inputname label {
+.inputname label ::hover {
   margin-bottom: 4px;
 }
 .inputname input ::placeholder {
