@@ -573,30 +573,30 @@
       </div>
          
     </footer>
+
+
     <div class="backdrop is-hidden" data-modal>
       <div class="modal">
         <button data-modal-close class="close-button">
           <img src="./images/Vector.svg" alt="Закрыть" />
         </button>
-
-
        
 <form>
-   <fieldset>
-          <legend>
+   
+          
             <form class="js-speaker-form">
               <h3>Оставьте свои данные, мы Вам перезвоним</h3>
-               Оформил ввод имени (вставляю класс inputname)
+               
               <div class="inputname">
                 <label class="form-name" for="name">Имя</label>
-                <input  class="nameinput" type="text" name="name" id="name" placeholder="Имя" />
+                <input  class="nameinput" type="text" name="name" id="name"  />
               </div>
 
               <!-- Оформляю ввод телефона -->
 
               <div>
                 <label for="tel">Телефон</label>
-                <input type="text" name="tel" id="tel" placeholder="Тел" />
+                <input type="text" name="tel" id="tel"  />
               </div>
               <!-- Вставляю почту -->
 
@@ -606,7 +606,7 @@
                   type="text"
                   name="email"
                   id="email"
-                  placeholder="email"
+                  
                 />
               </div>
 
@@ -614,11 +614,12 @@
               <div>
                 <label for="textarea">Комментарий</label>
 
-                <textarea
+                <textarea class="textarea"
                   name="textarea"
                   id="textarea"
                   cols="30"
                   rows="10"
+                  placeholder="Введите текст"
                 ></textarea>
               </div>
 
@@ -629,9 +630,7 @@
               >
               <!-- Кнопка заявки -->
               <button type="submit">Отправить</button>
-            </form>
-          </legend>
-        </fieldset>
+            </form>                 
 </form>
        
       </div>
