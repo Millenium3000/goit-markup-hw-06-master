@@ -1208,3 +1208,13 @@ opacity: 0;
   fill: #ffffff;
 }
 /* отодвину кнопку в модалке вниз от надписи */
+
+/* X это крестик закрывающий кнопку в модалке */
+.x {
+  width: 30px;
+  height: 30px;
+  top: 229px;
+  left: 1 025px;
+  border: 1px;
+  color: #ffffff;
+}
