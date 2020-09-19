@@ -1104,6 +1104,7 @@ opacity: 0;
   width: 200px;
   height: 50px;
   left: 165px;
+  margin-top: 40px;
 
   border: 0;
   background: #188ce8;
@@ -1206,3 +1207,4 @@ opacity: 0;
   margin-left: 10px;
   fill: #ffffff;
 }
+/* отодвину кнопку в модалке вниз от надписи */
