@@ -517,6 +517,9 @@ img {
 
 /* закрытие кнопки */
 .close-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   position: absolute;
   width: 30px;
   height: 30px;
@@ -525,6 +528,9 @@ img {
   background: var(--accent-white-color);
   border: 1px solid var(--primary-text-color);
   border-radius: 50%;
+}
+.close-button:hover .close-icon {
+  fill: #2196f3;
 }
 
 .hidden-title {
@@ -1104,7 +1110,7 @@ label {
 
   width: 18px;
   height: 18px;
-  fill: var(--header-text-color);
+  fill: var(--accent-black-color);
 }
 /* кнопка - подпишись на рассылку */
 .footer-flex-form {
@@ -1170,14 +1176,21 @@ label {
   width: 448px;
   height: 40px;
 }
-/* Трем иконкам в модалке даю ховер */
-.nameinput input {
-  border-color: #2196f3;
+.nameinput:focus,
+.textarea:focus {
+  border: 1px solid #2196f3;
 }
 
-/* .inputname label :hover {
-  margin-bottom: 4px;
-} */
+.nameinput:focus + .icon-name-form {
+  fill: #2196f3;
+}
+.close-icon {
+  width: 11px;
+  height: 11px;
+  fill: #2f303a;
+  display: block;
+}
+
 .inputname ::placeholder {
   font-size: 14px;
   line-height: 1.14;
