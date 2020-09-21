@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Портфолио</title>
+    <title>Портфолиo</title>
     <link
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=fallback"
       rel="stylesheet"
@@ -17,19 +17,21 @@
   <body>
     <!-- Навигация и контакты -->
     <header class="nav-and-contacts">
-      <div class="container flex-header line-bottom">
+      <div class="container flex-header">
         <nav class="flex-nav">
           <a class="link logo" href="./index.html">
             <span class="accent-color">Web</span>Studio</a
           >
           <ul class="list site-nav text">
             <li class="item">
-              <a class="link" href="./index.html">Студия</a>
+              <a class="link current" href="./index.html">Студия</a>
             </li>
             <li class="item">
-              <a class="link current" href="./portfolio.html">Портфолио</a>
+              <a class="link" href="./portfolio.html">Портфолио</a>
             </li>
-            <li class="item"><a class="link" href="">Контакты</a></li>
+            <li class="item">
+              <a class="link" href="">Контакты</a>
+            </li>
           </ul>
         </nav>
 
@@ -46,16 +48,15 @@
                 info@devstudio.com</a
               >
             </li>
-            <div class="email">
-              <li class="item link-addres">
-                <a class="link" href="tel:+380961111111">
-                  <svg class="icon-mobile hover">
-                    <use href="./images/symbol-defs2.svg#icon-smartphone"></use>
-                  </svg>
-                  +38 096 111 11 11</a
-                >
-              </li>
-            </div>
+
+            <li class="item link-addres">
+              <a class="link" href="tel:+380961111111">
+                <svg class="icon-mobile hover">
+                  <use href="./images/symbol-defs2.svg#icon-smartphone"></use>
+                </svg>
+                +38 096 111 11 11</a
+              >
+            </li>
           </ul>
         </address>
       </div>
@@ -325,7 +326,7 @@
       </section>
     </main>
 
-     <!-- Footer -->
+    <!-- Footer -->
     <footer class="background-footer">
       <div class="container footer-flexbox">
         <div class="footer-maps">
@@ -352,9 +353,7 @@
           </address>
         </div>
 
-       
-
-            <!-- конец формы - ПОДПИШИТЕСЬ -->
+        <!-- конец формы - ПОДПИШИТЕСЬ -->
         <div class="footer-icon">
           <h3 class="title title-icon">присоединяйтесь</h3>
           <ul class="icon-svg">
@@ -416,31 +415,30 @@
             </li>
           </ul>
         </div>
-         <!-- Вставляю форму - ПОДПИШИТЕСЬ НА РАССЫЛКУ -->
-         <!-- Подпишитесь на рассылку-->
+        <!-- Вставляю форму - ПОДПИШИТЕСЬ НА РАССЫЛКУ -->
+        <!-- Подпишитесь на рассылку-->
 
         <form class="form-field js-speaker-form">
           <label class="label-mail" for="action-mail">
             <b class="call-to-action">Подпишитесь на рассылку</b>
           </label>
           <div class="footer-flex-form">
-            <input 
+            <input
               class="action-mail"
-              type="mail"
+              type="email"
               id="action-mail"
-              name="mail" 
-              placeholder="E-mail" 
-
+              name="mail"
+              placeholder="E-mail"
             />
-            <button type="submit" class=" subscribe-btn">
-              Подписаться
-              <svg class="icon-telega">
+
+            <button type="submit" class="subscribe-btn">
+              Подписаться<svg class="icon-telega">
                 <use href="./images/icon-telega.svg#icon-icon-send"></use>
               </svg>
             </button>
-            
+          </div>
+        </form>
       </div>
-         
     </footer>
   </body>
 </html>
