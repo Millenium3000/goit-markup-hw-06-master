@@ -470,7 +470,7 @@ img {
 .modal {
   position: absolute;
   min-width: 528px;
-  min-height: 581px;
+  min-height: 590px;
   transform: translate(-50%, -50%) scale(1);
   left: 50%;
   top: 50%;
@@ -1108,8 +1108,8 @@ label {
   display: inline-block;
   left: 13.5px;
 
-  width: 18px;
-  height: 18px;
+  width: 12px;
+  height: 12px;
   fill: var(--accent-black-color);
 }
 /* кнопка - подпишись на рассылку */
