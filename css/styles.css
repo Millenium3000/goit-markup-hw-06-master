@@ -448,6 +448,7 @@ img {
   justify-content: center;
   background-color: #f5f4fa;
   width: 100%;
+  width: 270px;
   height: 120px;
   margin-bottom: 30px;
 }
@@ -463,6 +464,7 @@ img {
 
 .list-why-we > .item:not(:last-child) {
   margin-right: 30px;
+  width: 270px;
 }
 
 /* Модальное окно ДИВ */
