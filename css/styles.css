@@ -528,7 +528,7 @@ img {
   top: 8px;
   right: 8px;
   background: var(--accent-white-color);
-  border: 1px solid var(--primary-text-color);
+  border: 1px solid rgba(0, 0, 0, 0.1);
   border-radius: 50%;
 }
 .close-button:hover .close-icon {
@@ -569,7 +569,7 @@ img {
   font-weight: 500;
   margin-top: 0px;
   margin-bottom: 10px;
-  padding-top: 30px;
+
   font-size: 16px;
   line-height: 1.18;
   letter-spacing: 0.03em;
@@ -1086,6 +1086,7 @@ label {
   position: relative;
   display: flex;
   flex-direction: column;
+  margin-bottom: 10px;
 }
 
 /* запрет на изменение формы поля ввода текста */
